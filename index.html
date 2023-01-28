@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="fondo">
+    <div id="textoNombre">
+        <h1>BIENVENIDO</h1>
+        <form onsubmit="guardarNombre(event)">
+        <label id="nombreQ"> <p>¿Cual es tu nombre?</p>
+            <input  type="text" value="" id="nombre" name="nombreUsuario" placeholder="Escribe aqui tu nombre...">
+        </label>
+        </form>
+    </div>
+    <h1 id="nombreDelUsuario"></h1>
+    <div id="seccionElegir">
+        <button  type="button" id="edadAñoXXXX" onclick="">Calcular tu edad en el año (XXXX)</button>
+        <div>
+            <form id="seccion1">
+                <label> <p id="fechaQQ">¿Cual es tu fecha de nacimiento?</p> 
+                <input type="date" id="añoNacimiento"> <br> <br>
+                <button type="submit" id="botonFecha">Enviar</button>
+                </label>
+            </form> 
+            <div id="seccion2">
+                <p id="tuAñoDeNacimiento"></p>
+                <p id="edad"></p>
+            </div>
+        </div>
+        <div id="seccion3">    
+            
+            <form id="queEdadTendrias" hi>
+                <label> <p id="fechaAño">¿Que edad tendrias en el año... <br></p>
+                    <input type="number" id="edadQ" placeholder="Escribe aqui un año..."> <br> <br>
+                    <button type="submit" id="botonAñoQ">Saber...</button>
+                </label>
+            </form>
+        </div>
+        <div id="seccion4">
+            <p id="edadQueTendriasRespuesta"></p>
+            <button type="button" id="saberTuSigno" onclick="">Saber tu signo zodiacal</button>
+        </div>
+        <div id="seccion5">
+            <p id="signoZ"></p>
+            <p id="signo"></p>
+            <img src="" alt="" id="imgSigno">
+        </div>
+        <script src="codigo.js"></script>
+    </div>
+</body>
+</html>

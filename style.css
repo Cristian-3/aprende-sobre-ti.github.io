@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Shadows+Into+Light&display=swap');
+
+html {
+    background-image: linear-gradient(300deg, #FEE140 0%, #FA709A 100%);
+    height: 100%;
+    width: 100%;
+}
+
+#fondo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    padding: 10px;
+    background: linear-gradient( #87022a2e, #ff004c2e);
+    box-sizing: border-box;
+    border-radius: 10PX 25px;
+    color: #001e5f;
+    font-size: 50px;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+#nombreQ {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0c399bc5;
+    padding-bottom: 50px;
+}
+
+#nombre {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px 5px 15px 5px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+h3 {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0c399b;
+}
+
+#edadAñoXXXX {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px 5px 15px 5px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+#edadAñoXXXX:active {
+    background-color: #d31b52b5;
+}
+
+#fechaB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fechaQQ {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0c399b;
+}
+
+#añoNacimiento {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+#añoNacimiento:active {
+    background-color: #d31b52b5;
+}
+
+#botonFecha {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+#botonFecha:active {
+    background-color: #d41c53b5;
+}
+
+#seccion2 {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #0c399b;
+}
+
+#fechaAño {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: #0c399b;
+}
+
+#edadQ {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+#botonAñoQ {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+#botonAñoQ:active {
+    background-color: #d41c53b5;
+}
+
+#edadQueTendriasRespuesta {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0c399b;
+}
+
+#saberTuSigno {
+    font-family: 'Comic Neue', sans-serif;
+    border-radius: 15px;
+    border: 3px solid #d81c5495;
+    background-color: #e97b9c3c;
+    padding: 8px;
+    font-size: 20px;
+    color: #001e5f;
+}
+
+#saberTuSigno:active {
+    background-color: #d41c53b5;
+}
+
+#signoZ {
+    font-family: 'Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0c399b;
+}
+
+#signo {
+    border-radius: 7px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 50%, #ffffff 100%);
+    font-size: 33px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#imgSigno {
+    border-radius: 5px;
+    height: 500px;
+}
